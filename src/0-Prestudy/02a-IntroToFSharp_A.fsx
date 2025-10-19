@@ -134,7 +134,7 @@ and function values. How can we tell the difference?
 let x = 1
 // val x : int = 1             // <======= look at the signature
 
-let y = "hello"
+let y: string = "hello"
 // val y : string = "hello"    // <======= look at the signature
 
 (*
@@ -209,7 +209,7 @@ The type of this function is:
 
 // example of a two parameter function
 // Note that the parameters are separated by spaces in the definition.
-let add x y =
+let add2 x y =
    x + y
 // val add : x:int -> y:int -> int   // <======= two arrows
 
